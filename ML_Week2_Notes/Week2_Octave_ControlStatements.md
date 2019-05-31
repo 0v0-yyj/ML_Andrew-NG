@@ -83,7 +83,7 @@ end;
 
 ``` Octave
 addpath('C:\Users\Desktop)
-cd 'C:\'
+cd "C:\"
 SquareThisNumber(5)
 [a,b] = squareAndCubeThisNUmber(5)
 ```
