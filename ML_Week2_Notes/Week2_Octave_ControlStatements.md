@@ -14,8 +14,8 @@ for i = 1:10,
 end
 #break uses to halt loop;continou uses to skip this run 
 ```
-> v
-> 2 4 8 16 32 64 128 256 512 1028 2056
+> v                                         
+> 2 4 8 16 32 64 128 256 512 1028 2056 
 > :point_right:automatically identify and update vector/matrix without specifying before 
  
 #### While Loop
@@ -27,8 +27,8 @@ while i <= 5,
 end;
 #break and contious could be used as well
 ```
-> v
-> 100 100 100 100 100 64 128 256 512 1028 2056
+> v                                                  
+> 100 100 100 100 100 64 128 256 512 1028 2056 
 
 #### while + if + break Loop
 ```Octave
@@ -42,10 +42,10 @@ while true, #permenant loop
 end;
 ```
 
-> v
+> v                                                                                                                              
 > 999 999 999 999 999 128 256 512 1028 2056
 
-####if-else
+#### if-else
 ```Octave
 v(1) = 2;
 if v(1) == 1,
@@ -58,11 +58,11 @@ end;
 ```
 > The value is two
 
-####How to define and use functions
+#### How to define and use functions
 :point_right:__Notes__:
 1. "q" and "exit" would help you qiut Octave
-2. Define function by creating functionName.m in WordPad rather than NotePad messing up the spacing.
-#####In wordPad
+2. Define function by creating functionName.m in Octave new funtion, open it using WordPad rather than NotePad messing up the spacing.
+##### In wordPad
 > function y = squaredThisNumber(x)
 >
 > y = x^2
@@ -83,23 +83,23 @@ end;
 
 ``` Octave
 addpath('C:\Users\Desktop)
-cd 'C:\'
+cd "C:\"
 SquareThisNumber(5)
 [a,b] = squareAndCubeThisNUmber(5)
 ```
 #### Sophisticated example of function
 
 #### In WordPad
-> function J = costFunctionJ(X, y, theta)
-> %X is the "design matrix" containing our trainning example
-> %y is the class labels
-
-> m = size(X,1); %number of training examples
-> prediction = X*theta % predictions of hypothesis on all m
-> examples
-> sqrErrors = (predictions-y).^2; $square errors
->
-> J = 1/(2*m)*sum(sqrErrors);
+> function J = costFunctionJ(X, y, theta)                           
+> %X is the "design matrix" containing our trainning example                             
+> %y is the class labels  
+>                                                                      
+> m = size(X,1); %number of training examples                                                        
+> prediction = X*theta % predictions of hypothesis on all m                                                                
+> examples                                                                                                                           
+> sqrErrors = (predictions-y).^2; %square errors                                                                          
+>                                                   
+> J = 1/(2*m)*sum(sqrErrors);                                         
 
 ``` Octave
 X = [1,1;1,2;1,3];
