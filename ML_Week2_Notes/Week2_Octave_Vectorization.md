@@ -5,14 +5,20 @@
 #### 1. Hypothesis Equation
 :point_right:__h_theta(x) = sum(j=1:n+1)[theta_j * x_j] = theta.transpose() * x__
 
-![Hypothesis Equation](https://github.com/yjiang14/ML_Andrew-NG/blob/master/ML_Week2_Notes/ImageFolder/Hypothesis_Eqaution.PNG|118.8 x 44.8)
+![Hypothesis Equation]
+<p align="center">
+  <img width = "166" height = "63"  src="https://github.com/yjiang14/ML_Andrew-NG/blob/master/ML_Week2_Notes/ImageFolder/Hypothesis_Eqaution.PNG">
+</p>
 
 #### 2. Gradient Descent
 :point_right: __theta_j = theta_j - alpha * 1/m * sum(i=1:m)[(h_theta(x_i)- y_i) * x_j_i] for all j__
 
 *  __theta_j = theta_j - alpha * derive(CostFunction)__
 
-![Gradient_Descent](https://github.com/yjiang14/ML_Andrew-NG/blob/master/ML_Week2_Notes/ImageFolder/Gradient_Decrease.PNG)
+![Gradient_Descent]
+<p align="right">
+	<img src="https://github.com/yjiang14/ML_Andrew-NG/blob/master/ML_Week2_Notes/ImageFolder/Gradient_Descent.PNG">
+</p>
 
 ### Notes:
 1. Octave/Matlab has beginning index of 1 rather than 0 (Java, Python, C, C++)
