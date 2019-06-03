@@ -42,7 +42,7 @@ x = [x11 x12 x13...;x21 x22 x23...;x31 x32 x33..;....];
 prediction = theta' * x;
 ```
 
-#### 3, Vectorization with Gradient Descent Notes
+#### 3. Vectorization with Gradient Descent Notes
 
 <p align = "center">
 	<img src="https://github.com/yjiang14/ML_Andrew-NG/blob/master/ML_Week2_Notes/ImageFolder/Vectorization_GradientDescent_Notes.PNG">
