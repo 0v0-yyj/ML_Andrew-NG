@@ -5,7 +5,7 @@
 #### 1. Hypothesis Equation
 :point_right:__h_theta(x) = sum(j=1:n+1)[theta_j * x_j] = theta.transpose() * x__
 
-![Hypothesis Equation]
+
 <p align="center">
   <img width = "166" height = "63"  src="https://github.com/yjiang14/ML_Andrew-NG/blob/master/ML_Week2_Notes/ImageFolder/Hypothesis_Eqaution.PNG">
 </p>
@@ -15,7 +15,7 @@
 
 *  __theta_j = theta_j - alpha * derive(CostFunction)__
 
-![Gradient_Descent]
+
 <p align="right">
 	<img src="https://github.com/yjiang14/ML_Andrew-NG/blob/master/ML_Week2_Notes/ImageFolder/Gradient_Descent.PNG">
 </p>
@@ -43,6 +43,7 @@ prediction = theta' * x;
 ```
 
 #### 3, Vectorization with Gradient Descent Notes
+
 <p align = "center">
-	<img, src: "">
+	<img src="https://github.com/yjiang14/ML_Andrew-NG/blob/master/ML_Week2_Notes/ImageFolder/Vectorization_GradientDescent_Notes.PNG">
 </p>
