@@ -13,7 +13,9 @@ A * B  | matrix mutplication
 A .* B | each element in A copresspondingly multiply each element in B 
 A .+ B | each element in A copresspondingly plus each element in B 
 A .^ 2 | each element in A is copresspondingly squared 
+A ^ 2 | equal to A * A, different from A .^ 2
 1 ./ A | each element in A is copresspondingly devided by 1 
+C (r*c) .sign D  | elementwise computing require D has dim 1 * c or r * c 
 log (A) | elementwised logarithm
 exp(A) | elementwised exponential
 abs(A) | elementwised absolute value
