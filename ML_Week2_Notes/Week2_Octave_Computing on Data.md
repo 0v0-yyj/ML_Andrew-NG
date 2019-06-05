@@ -40,6 +40,8 @@ max (A, [], dim) |find maximal value in each sepcified dimension in matrix A
 eye(#) |generate diaginal identity matrix
 flipud(A) |flip matix vertically
 pinv(A) |pseudo-inverse, inverse matrix (逆)
+std(vector)|calculate standard deviation of this vector
+
 
 
 
