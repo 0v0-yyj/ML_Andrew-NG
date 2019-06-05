@@ -45,3 +45,7 @@
     end
     ```
 &nbsp;
+
+8. __fprintf('x = [%.0f %.0f], y = %.0f \n', [x(1:10,:) y(1:10,:)]');__
+     * 'x = [%.0f %.0f], y = %.0f \n' specify format for x and y and then next line (\n)
+     
