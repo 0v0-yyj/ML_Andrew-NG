@@ -26,7 +26,7 @@ Function | operation in Matlab
 ---------|---------------------
 [A B] | concatenate mateix A and B
 [A; B]| attach matrix B followed by matrix A
-A(:) |transpose matrix A to be vector
+A(:) |transpose matrix A to be column vector
 A(:,2 = [a,b,c]) | replace elements in matrix
 save [filename.format] [var] | save the var into filename.format
 clear a or clear ('a')|clear var a in current scope, no any specification then clear all var in scope
