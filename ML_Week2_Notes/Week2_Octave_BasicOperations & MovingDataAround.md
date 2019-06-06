@@ -35,3 +35,5 @@ whos | shows all var in current memeory with details
 load(dataset)|load dataset into current scope could be txt/excel...
 length(vector)| show # of elements in this vector, if matrix, then show max(length(rows),length(cols))
 size(matrix)| show number of rows and cols for matirx row*col
+csvread('dataset.txt')| read in txt dataset
+
