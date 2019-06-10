@@ -8,6 +8,7 @@ eye (#) | generate diagonal identity matrix
 hist(dataset, [#ofBins]) | plot histogram (default 10 bins)
 rand (r,c)| randomly generate matrix with r*c dim from U(0,1)
 ones (r,c); zeros(r,c) | generate all 1/0 matrix with r*c dim. _if one var x, then x*x dim
+zeros(size(A))| generate matrix/vector has the same dimension as A.
 disp(a) | shows a value
 sprint('string:', %0.2f, a) |%() format print, 0.2f means before 0 keep the same and keep 2 decimals for this __floating num__ print "string: a value with 2 decimals"
 PS1('')| change prompt in command window
